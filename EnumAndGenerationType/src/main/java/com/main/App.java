@@ -1,6 +1,6 @@
 package com.main;
 
-import com.entity.*;
+import com.entities.*;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;

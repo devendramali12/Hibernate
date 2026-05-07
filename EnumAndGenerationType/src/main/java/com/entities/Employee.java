@@ -1,4 +1,4 @@
-package com.entity;
+package com.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,13 +11,12 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name="student")
-public class Student {
+@Table(name="employee")
+public class Employee {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	private String name;
-	
 }
